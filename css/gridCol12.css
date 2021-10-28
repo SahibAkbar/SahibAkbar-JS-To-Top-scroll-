@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.row {}
+
+.clear-fix {
+    clear: both;
+}
+
+.col-1 {
+    width: 8.33%;
+    float: left;
+    padding: 15px;
+}
+
+.col-2 {
+    width: 16.66%;
+    float: left;
+    padding: 15px;
+}
+
+.col-3 {
+    width: 25%;
+    float: left;
+    padding: 0px;
+}
+
+.col-4 {
+    width: 33.33%;
+    float: left;
+    padding: 15px;
+}
+
+.col-5 {
+    width: 41.66%;
+    float: left;
+    padding: 15px;
+}
+
+.col-6 {
+    width: 50%;
+    float: left;
+    padding: 15px;
+}
+
+.col-7 {
+    width: 58.33%;
+    float: left;
+    padding: 15px;
+}
+
+.col-8 {
+    width: 66.66%;
+    float: left;
+    padding: 15px;
+}
+
+.col-9 {
+    width: 75%;
+    float: left;
+    padding: 15px;
+}
+
+.col-10 {
+    width: 83.33%;
+    float: left;
+    padding: 15px;
+}
+
+.col-11 {
+    width: 91.66%;
+    float: left;
+    padding: 15px;
+}
+
+.col-12 {
+    width: 100%;
+    float: left;
+    padding: 0px;
+}
+
+.color-1 {
+    height: 100px;
+    background-color: rgb(240, 216, 3);
+}
+
+.color-2 {
+    height: 100px;
+    background-color: rgb(194, 14, 14);
+}
+
+.color-3 {
+    height: 100px;
+    background-color: rgb(55, 19, 185);
+}
+
+.color-4 {
+    height: 100px;
+    background-color: rgb(27, 27, 27);
+}
+
+.color-5 {
+    height: 100px;
+    background-color: rgb(91, 190, 25);
+}
+
+.color-6 {
+    height: 100px;
+    background-color: rgb(7, 172, 248);
+}
+
+.color-7 {
+    height: 100px;
+    background-color: rgb(233, 13, 196);
+}

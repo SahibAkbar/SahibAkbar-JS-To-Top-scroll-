@@ -1,0 +1,607 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    transition: .3s;
+}
+
+#banner {
+    background-position: center;
+    width: 100%;
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+}
+
+#banner .container {}
+
+#banner .container .imagen {}
+
+#banner .container .imagen img {}
+
+#banner .container ul {
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#banner .container ul li {
+    display: inline-block;
+    padding: 15px
+}
+
+#banner .container ul li a {}
+
+#banner .container .sosial {}
+
+#banner .container .sosial ul {
+    list-style-type: none;
+    padding-top: 16px;
+    float: right;
+}
+
+#banner .container .sosial ul li {
+    padding: 0px 0px;
+    display: inline-block;
+}
+
+#banner .container .sosial ul li i {
+    padding: 0px 0px;
+    display: inline-block;
+}
+
+#structure {}
+
+#structure .bannerPhoto {
+    background-image: url("../img/blog_banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-attachment: fixed;
+    position: relative;
+    padding: 235px 0px;
+}
+
+#structure .overPhoto {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0 0 0 / 50%);
+}
+
+#structure .container .text {
+    text-align: center;
+    padding: 202px 0px;
+    color: white;
+}
+
+#structure .container .text .light {
+    font-weight: 200;
+    font-size: 48px;
+}
+
+#structure .container .text .bold {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+#structure .container p {
+    font-size: 20px;
+    font-size: 24px;
+}
+
+#structure .container .Home {
+    background-color: rgb(10, 162, 233);
+    background-image: linear-gradient(to right, rgb(23, 35, 197), rgb(35, 193, 221));
+    transform: translateY(-198%);
+    z-index: 0;
+    margin-bottom: 0px;
+}
+
+#structure .container .Home p {
+    font-size: 20px;
+    padding: 30px;
+    color: white;
+}
+
+#structure .container .Home .col-2 ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 13px;
+    list-style-type: none;
+    float: right;
+    box-sizing: border-box;
+}
+
+#structure .container .Home .col-2 ul :first-child {
+    padding-left: 4px;
+}
+
+#structure .container .Home ul li {
+    display: inline-block;
+}
+
+#structure .container .blogs {
+    padding-top: 80px;
+}
+
+#structure .container .news {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#structure .container .news .newNews {
+    color: #808080;
+    padding-bottom: 44px;
+}
+
+#structure .container .news .newNews img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-attachment: fixed;
+    padding-bottom: 35px;
+}
+
+#structure .container .news .newNews h1 {
+    font-size: 29px;
+    font-weight: 300;
+}
+
+#structure .container .news .newNews .autor ul {
+    list-style-type: none;
+    display: inline-block;
+    color: #808080;
+}
+
+#structure .container .news .newNews .autor ul li {
+    padding: 15px;
+    display: inline-block;
+    color: #808080;
+}
+
+#structure .container .news .newNews .autor ul li a {
+    text-decoration: none;
+    color: #808080;
+    padding-bottom: 35px;
+}
+
+#structure .container .news .newNews ul li a i {}
+
+#structure .container .news .newNews p {
+    padding-bottom: 35px;
+    font-size: 18px;
+    text-indent: 50px;
+    text-align: justify;
+}
+
+#structure .container .news .newNews>a {
+    text-decoration: none;
+    color: white;
+    border: 0px solid#24CDD5;
+    padding: 11px 25px;
+    margin-top: 25px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-image: linear-gradient(to right, rgb(23, 35, 197), rgb(35, 193, 221));
+}
+
+#structure .container .news .changePage {}
+
+#structure .container .changePage ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#structure .container .changePage ul li {
+    display: inline-block;
+}
+
+#structure .container .changePage ul li a {
+    line-height: 43px;
+    font-size: 24px;
+    color: #a5a5a5;
+    text-align: center;
+    margin: 5px 21px;
+    border: none;
+    text-decoration: none;
+}
+
+#structure .container .first_blog {
+    color: #808080;
+    background: rgb(246, 246, 246);
+    padding: 21px 0px;
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+
+#structure .container .first_blog h3 {
+    color: #808080;
+    font-size: 25px;
+    padding: 9px 23px;
+}
+
+#structure .container .first_blog form {}
+
+#structure .container .first_blog form label {
+    color: #808080;
+}
+
+#structure .container .first_blog form input {
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    padding: 11px 0px 7px 7px;
+    margin: 0px 0px 0px 22px;
+    background-color: white;
+}
+
+#structure .container .first_blog form button {
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    padding: 12px 18px 9px 7px;
+    margin: 3px 12px 0px -4px;
+    background-color: rgb(65, 176, 209);
+    border: 0px solid;
+}
+
+#structure .container .first_blog form button i {
+    font-size: 20px;
+    color: white;
+}
+
+#structure .container .second_blog {
+    color: #808080;
+    background: rgb(246, 246, 246);
+    padding: 76px 0px;
+    margin: 80px 0;
+}
+
+#structure .container .second_blog h3 {
+    font-size: 25px;
+    padding: 25px 23px;
+    color: rgb(56, 65, 65);
+}
+
+#structure .container .second_blog .little_blog {
+    color: #808080;
+    display: inline-block;
+}
+
+#structure .container .second_blog .little_blog .blog_text img {
+    display: inline-block;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+#structure .container .second_blog .little_blog .blog_text .firstSide {
+    padding: 0px;
+    position: relative;
+    top: -41px;
+    right: 36px;
+    left: 53px;
+    bottom: -5px;
+}
+
+#structure .container .second_blog .little_blog .blog_text .firstSide a {
+    display: inline-block;
+    color: #808080;
+    text-decoration: none;
+    padding-right: 81px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#structure .container .second_blog .little_blog .blog_text .firstSide span {
+    color: #808080;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 2px;
+}
+
+#structure .container .third_blog {
+    color: #808080;
+    background: rgb(246, 246, 246);
+    padding: 76px 0px;
+    margin: 80px 0;
+}
+
+#structure .container .third_blog h3 {
+    color: rgb(56, 65, 65);
+    font-size: 25px;
+    padding: 25px 23px;
+}
+
+#structure .container .third_blog ul {
+    color: #808080;
+    list-style-type: none;
+}
+
+#structure .container .third_blog ul li {
+    border: 1px solid rgb(236, 236, 236);
+    color: #808080;
+    display: inline-block;
+    border-radius: 24px;
+    padding: 9px 19px;
+    margin: 5px 0px;
+}
+
+#structure .container .third_blog ul li a {
+    color: #808080;
+    text-decoration: none;
+}
+
+#structure .container .four_blog {
+    color: #808080;
+    background: rgb(246, 246, 246);
+    padding: 76px 0px;
+    margin-top: 80;
+    margin-bottom: 0px;
+}
+
+#structure .container .four_blog h3 {
+    color: rgb(56, 65, 65);
+    font-size: 25px;
+    padding: 25px 23px;
+}
+
+#structure .container .four_blog ul {
+    color: #808080;
+    padding: 25px 23px;
+    font-weight: 600;
+}
+
+#structure .container .four_blog ul li i {
+    color: #24cdd5;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    font-size: 12px;
+}
+
+#structure .container .four_blog ul li {
+    color: #808080;
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+#structure .container .four_blog ul li a::before {
+    height: 8px;
+    width: 8px;
+    background: rgb(36, 205, 213);
+    margin-right: 10px;
+    vertical-align: baseline;
+    margin-bottom: 1px;
+}
+
+#structure .container .four_blog ul li a {
+    color: #808080;
+    text-decoration: none;
+}
+
+#structure .container .four_blog ul li a::before {
+    height: 8px;
+    width: 8px;
+    background: rgb(36, 205, 213);
+    margin-right: 10px;
+    vertical-align: baseline;
+    margin-bottom: 1px;
+    border-radius: 50%;
+}
+
+#structure .container .submit {
+    background-color: white;
+    transform: translateY(26%);
+    box-shadow: rgb(0 0 0 / 15%) 2px 5px 19px 9px;
+    z-index: 2;
+    margin-bottom: 0px;
+    padding: 51px 0px;
+}
+
+#structure .container .submit h1 {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    color: rgb(56, 65, 65);
+}
+
+#structure .container .submit p {
+    color: #808080;
+}
+
+#structure .container .submit .form-group {
+    color: #808080;
+}
+
+#structure .container .submit .form-group label {
+    color: #808080;
+}
+
+#structure .container .submit .form-group input {
+    color: #808080;
+    width: 266px;
+    height: 35px;
+    margin-left: 20px;
+}
+
+#structure .container .submit button {
+    border-radius: 24px;
+    width: 231px;
+    height: 37px;
+    margin-left: 25px;
+    color: white;
+    border: 0px solid;
+    background-image: linear-gradient(to right, rgb(23, 35, 197), rgb(35, 193, 221));
+}
+
+#adresses {
+    background-color: rgb(38, 49, 60);
+    padding: 100px 0px;
+    color: white;
+}
+
+#adresses .container {}
+
+#adresses .container .firstCol {}
+
+#adresses .container .firstCol a {
+    text-decoration: none;
+}
+
+#adresses .container .firstCol p {
+    padding-right: 13px
+}
+
+#adresses .container .firstCol a img {}
+
+#adresses .container .firstCol .mailAdress {
+    padding: 24px 0px;
+    display: inline-block;
+}
+
+#adresses .container .firstCol .mailAdress a {
+    text-decoration: none;
+}
+
+#adresses .container .firstCol .mailAdress a i {
+    font-size: 35px;
+    color: white;
+}
+
+#adresses .container .firstCol .mailAdress p {
+    position: relative;
+    top: -34px;
+    bottom: 0px;
+    right: 5px;
+    left: 31px;
+}
+
+#adresses .container .firstCol .mailAdress p>a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: -121px;
+}
+
+#adresses .container .firstCol ul {
+    list-style-type: none;
+}
+
+#adresses .container .firstCol ul li {
+    display: inline-block;
+}
+
+#adresses .container .firstCol ul li i {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 31px;
+}
+
+#adresses .container .secondCol {}
+
+#adresses .container .secondCol h3 {
+    padding: 10px 0px 22px 0px;
+    font-size: 25px;
+}
+
+#adresses .container .secondCol .side1 .first {
+    padding-top: 0px;
+}
+
+#adresses .container .secondCol .side1 {
+    margin-right: 37px;
+    border-bottom: 1px solid white;
+    padding: 15px 0px;
+}
+
+#adresses .container .secondCol p {}
+
+#adresses .container .secondCol span {}
+
+#adresses .container .thirdCol {
+    margin-left: 20px;
+}
+
+#adresses .container .thirdCol h3 {
+    padding: 10px 0px 22px 0px;
+    font-size: 25px;
+}
+
+#adresses .container .thirdCol ul {
+    padding-bottom: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    margin-left: 0px;
+}
+
+#adresses .container .thirdCol ul li i {
+    padding-right: 20px;
+    margin-bottom: 18px;
+}
+
+#adresses .container .thirdCol ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#adresses .container .fourCol {}
+
+#adresses .container .fourCol h3 {
+    padding: 10px 0px 22px 0px;
+    font-size: 25px;
+}
+
+#adresses .container .fourCol h4 {}
+
+#adresses .container .fourCol p {}
+
+#adresses .container .fourCol ul {
+    list-style: none;
+    padding: 16px 0px;
+}
+
+#adresses .container .fourCol li {
+    padding: 10px 0px;
+}
+
+#adresses .container .fourCol li span:last-child {
+    float: left;
+}
+
+#adresses .container .fourCol li span:last-child {
+    float: right;
+}
+
+
+
+/* Scroll to top */
+.scroll-to-top{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    border: none;
+    background-image: linear-gradient(to right, rgb(23, 35, 197), rgb(35, 193, 221));
+    transition: all 0.5s linear;
+    display: none;
+}
+.scroll-to-top:hover{
+    background-image: linear-gradient(to left, rgb(23, 35, 197), rgb(35, 193, 221));
+}
